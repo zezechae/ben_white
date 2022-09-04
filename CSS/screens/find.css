@@ -1,0 +1,82 @@
+.find-screen {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+.find-component__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-component__column span {
+  margin-top: 15px;
+}
+
+.find-screen__recommended {
+  margin: 25px 20px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.find-screen__recommended-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.find-screen__openchat {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.find-screen__openchat span:first-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.find-screen__openchat span:last-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.find-screen__openchat-component {
+  margin: 10px 25px 10px 25px;
+}
+
+.find-screen__openchat-component-column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.find-screen__openchat-component-column div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: baseline;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.find-screen__openchat-component-column img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+}
+
+.find-screen__openchat-component-column div span:first-child {
+  font-weight: 600;
+  color: black;
+}
+
+.find-screen__openchat-component-column div span:nth-child(2) {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
